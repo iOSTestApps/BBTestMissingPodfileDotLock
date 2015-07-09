@@ -13,6 +13,7 @@
 		83564C421B4ED7A2009EF6A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83564C411B4ED7A2009EF6A9 /* Images.xcassets */; };
 		83564C451B4ED7A2009EF6A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83564C431B4ED7A2009EF6A9 /* LaunchScreen.xib */; };
 		83564C511B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83564C501B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.swift */; };
+		E00DDCA3F2F106447798F503 /* libPods-BBTestMissingPodfileDotLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DFC3CFF8D2614D067DFE2D /* libPods-BBTestMissingPodfileDotLock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24DFC3CFF8D2614D067DFE2D /* libPods-BBTestMissingPodfileDotLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBTestMissingPodfileDotLock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A86AA6BDCD27ACE685FC9 /* Pods-BBTestMissingPodfileDotLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBTestMissingPodfileDotLock.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBTestMissingPodfileDotLock/Pods-BBTestMissingPodfileDotLock.release.xcconfig"; sourceTree = "<group>"; };
 		83564C351B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTestMissingPodfileDotLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83564C391B4ED7A2009EF6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83564C3A1B4ED7A2009EF6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		83564C4A1B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBTestMissingPodfileDotLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83564C4F1B4ED7A2009EF6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83564C501B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTestMissingPodfileDotLockTests.swift; sourceTree = "<group>"; };
+		BC4D66D783172F991AA6BFA1 /* Pods-BBTestMissingPodfileDotLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBTestMissingPodfileDotLock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBTestMissingPodfileDotLock/Pods-BBTestMissingPodfileDotLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E00DDCA3F2F106447798F503 /* libPods-BBTestMissingPodfileDotLock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BDD6A73457791455F56F87B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24DFC3CFF8D2614D067DFE2D /* libPods-BBTestMissingPodfileDotLock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6913978659E6E64B14944B62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D66D783172F991AA6BFA1 /* Pods-BBTestMissingPodfileDotLock.debug.xcconfig */,
+				562A86AA6BDCD27ACE685FC9 /* Pods-BBTestMissingPodfileDotLock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		83564C2C1B4ED7A2009EF6A9 = {
 			isa = PBXGroup;
 			children = (
 				83564C371B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLock */,
 				83564C4D1B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests */,
 				83564C361B4ED7A2009EF6A9 /* Products */,
+				6913978659E6E64B14944B62 /* Pods */,
+				2BDD6A73457791455F56F87B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83564C541B4ED7A2009EF6A9 /* Build configuration list for PBXNativeTarget "BBTestMissingPodfileDotLock" */;
 			buildPhases = (
+				3BCC65F5E7CE08B97C3F6AC1 /* Check Pods Manifest.lock */,
 				83564C311B4ED7A2009EF6A9 /* Sources */,
 				83564C321B4ED7A2009EF6A9 /* Frameworks */,
 				83564C331B4ED7A2009EF6A9 /* Resources */,
+				8755A5490EA07C74D3E0F81C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +232,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BCC65F5E7CE08B97C3F6AC1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8755A5490EA07C74D3E0F81C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBTestMissingPodfileDotLock/Pods-BBTestMissingPodfileDotLock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83564C311B4ED7A2009EF6A9 /* Sources */ = {
@@ -340,6 +399,7 @@
 		};
 		83564C551B4ED7A2009EF6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4D66D783172F991AA6BFA1 /* Pods-BBTestMissingPodfileDotLock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BBTestMissingPodfileDotLock/Info.plist;
@@ -350,6 +410,7 @@
 		};
 		83564C561B4ED7A2009EF6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562A86AA6BDCD27ACE685FC9 /* Pods-BBTestMissingPodfileDotLock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BBTestMissingPodfileDotLock/Info.plist;
@@ -411,6 +472,7 @@
 				83564C561B4ED7A2009EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83564C571B4ED7A2009EF6A9 /* Build configuration list for PBXNativeTarget "BBTestMissingPodfileDotLockTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +481,7 @@
 				83564C591B4ED7A2009EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
