@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583D79DAF5DD280B193B0DF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AF80571A13EE711A9913A8 /* SystemConfiguration.framework */; };
 		83564C3B1B4ED7A2009EF6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83564C3A1B4ED7A2009EF6A9 /* AppDelegate.swift */; };
 		83564C3D1B4ED7A2009EF6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83564C3C1B4ED7A2009EF6A9 /* ViewController.swift */; };
 		83564C401B4ED7A2009EF6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83564C3E1B4ED7A2009EF6A9 /* Main.storyboard */; };
 		83564C421B4ED7A2009EF6A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83564C411B4ED7A2009EF6A9 /* Images.xcassets */; };
 		83564C451B4ED7A2009EF6A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83564C431B4ED7A2009EF6A9 /* LaunchScreen.xib */; };
 		83564C511B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83564C501B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.swift */; };
+		8D285FC21A8F54638B70CEF6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C1F3C34AC8CE3C832D3A6F /* CoreTelephony.framework */; };
+		9C82B8F3B521A9B0D0CEB43D /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132B3D4C3E39F1D2800F52B4 /* BuddyBuildSDK.framework */; };
+		9D7B66B498DFA75D06DAB2FB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DB5D3AE9F98CBF2FF776A7 /* CoreText.framework */; };
 		E00DDCA3F2F106447798F503 /* libPods-BBTestMissingPodfileDotLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DFC3CFF8D2614D067DFE2D /* libPods-BBTestMissingPodfileDotLock.a */; };
+		F3D380214BEE202955625F66 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3992AA4FB76E8BEB513F1B /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132B3D4C3E39F1D2800F52B4 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		24DFC3CFF8D2614D067DFE2D /* libPods-BBTestMissingPodfileDotLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBTestMissingPodfileDotLock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		562A86AA6BDCD27ACE685FC9 /* Pods-BBTestMissingPodfileDotLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBTestMissingPodfileDotLock.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBTestMissingPodfileDotLock/Pods-BBTestMissingPodfileDotLock.release.xcconfig"; sourceTree = "<group>"; };
 		83564C351B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTestMissingPodfileDotLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +45,12 @@
 		83564C4A1B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBTestMissingPodfileDotLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83564C4F1B4ED7A2009EF6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83564C501B4ED7A2009EF6A9 /* BBTestMissingPodfileDotLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTestMissingPodfileDotLockTests.swift; sourceTree = "<group>"; };
+		A5C1F3C34AC8CE3C832D3A6F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		BC4D66D783172F991AA6BFA1 /* Pods-BBTestMissingPodfileDotLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBTestMissingPodfileDotLock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBTestMissingPodfileDotLock/Pods-BBTestMissingPodfileDotLock.debug.xcconfig"; sourceTree = "<group>"; };
+		C4DB5D3AE9F98CBF2FF776A7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D4AF80571A13EE711A9913A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB899A55B1F749B46E5F2398 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EB3992AA4FB76E8BEB513F1B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00DDCA3F2F106447798F503 /* libPods-BBTestMissingPodfileDotLock.a in Frameworks */,
+				9C82B8F3B521A9B0D0CEB43D /* BuddyBuildSDK.framework in Frameworks */,
+				F3D380214BEE202955625F66 /* AssetsLibrary.framework in Frameworks */,
+				9D7B66B498DFA75D06DAB2FB /* CoreText.framework in Frameworks */,
+				8D285FC21A8F54638B70CEF6 /* CoreTelephony.framework in Frameworks */,
+				583D79DAF5DD280B193B0DF6 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,11 @@
 			isa = PBXGroup;
 			children = (
 				24DFC3CFF8D2614D067DFE2D /* libPods-BBTestMissingPodfileDotLock.a */,
+				132B3D4C3E39F1D2800F52B4 /* BuddyBuildSDK.framework */,
+				EB3992AA4FB76E8BEB513F1B /* AssetsLibrary.framework */,
+				C4DB5D3AE9F98CBF2FF776A7 /* CoreText.framework */,
+				A5C1F3C34AC8CE3C832D3A6F /* CoreTelephony.framework */,
+				D4AF80571A13EE711A9913A8 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +107,7 @@
 				83564C361B4ED7A2009EF6A9 /* Products */,
 				6913978659E6E64B14944B62 /* Pods */,
 				2BDD6A73457791455F56F87B /* Frameworks */,
+				DB899A55B1F749B46E5F2398 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -402,9 +424,14 @@
 			baseConfigurationReference = BC4D66D783172F991AA6BFA1 /* Pods-BBTestMissingPodfileDotLock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBTestMissingPodfileDotLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -413,9 +440,14 @@
 			baseConfigurationReference = 562A86AA6BDCD27ACE685FC9 /* Pods-BBTestMissingPodfileDotLock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBTestMissingPodfileDotLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
